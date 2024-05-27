@@ -85,7 +85,7 @@
             const E = (dCdt * (V / A) * (mW / mV) * (T_kelvin_standard / T_kelvin));
 
             // Display result
-            document.getElementById('result').innerText = `Flux (E): ${E.toFixed(2)} mg/m²/min`;
+            document.getElementById('result').innerHTML = `Flux (E): ${E.toFixed(2)} mg/m²/min<sup>-1</sup>`;
         }
     </script>
 </body>
